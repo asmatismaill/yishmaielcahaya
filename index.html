@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>365 Hari Kita ♡</title>
+<link rel="icon" type="image/png" href="logo.png">
+<style>
+:root{--bg:#100e16;--panel:#1c1825;--pink:#ff8db7;--rose:#ffc4d9;--cream:#fff4f7;--muted:#c7b7c5;--line:#ffffff18}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 15% 5%,#45203e 0,transparent 30%),radial-gradient(circle at 90% 30%,#25244c 0,transparent 28%),var(--bg);color:var(--cream);font-family:ui-rounded,"Trebuchet MS",system-ui,sans-serif;overflow-x:hidden}
+button{font:inherit;cursor:pointer;border:0}a{color:inherit}.wrap{width:min(1060px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;color:var(--muted);font-size:.9rem}.logo{font-weight:900;color:var(--rose);letter-spacing:.08em}.pill{border:1px solid var(--line);padding:9px 13px;border-radius:999px;background:#ffffff08}
+.hero{min-height:84vh;display:grid;place-items:center;text-align:center;position:relative;padding:44px 0 70px}.eyebrow{display:inline-flex;gap:8px;align-items:center;border:1px solid #ff8db744;background:#ff8db710;color:var(--rose);padding:9px 14px;border-radius:99px;font-size:.84rem}.hero h1{font-size:clamp(3.2rem,9vw,7.5rem);line-height:.92;letter-spacing:-.07em;margin:25px 0 18px}.hero h1 span{display:block;color:var(--pink);font-family:Georgia,serif;font-style:italic;font-weight:500}.lead{color:var(--muted);font-size:clamp(1rem,2.2vw,1.18rem);max-width:590px;line-height:1.7;margin:0 auto 26px}.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}.btn{padding:13px 19px;border-radius:15px;font-weight:800;transition:.2s transform,.2s filter}.btn:hover{transform:translateY(-3px);filter:brightness(1.08)}.primary{background:var(--pink);color:#27111d;box-shadow:0 10px 35px #ff8db72b}.secondary{background:#ffffff0a;border:1px solid var(--line);color:var(--cream)}.floating{position:absolute;font-size:clamp(1.3rem,4vw,2.7rem);animation:float 4s ease-in-out infinite;pointer-events:none}.f1{left:8%;top:25%}.f2{right:9%;top:19%;animation-delay:-1s}.f3{right:17%;bottom:15%;animation-delay:-2s}.f4{left:17%;bottom:13%;animation-delay:-.5s}@keyframes float{0%,100%{transform:translateY(0) rotate(-8deg)}50%{transform:translateY(-17px) rotate(8deg)}}.section{padding:68px 0}.section-head{text-align:center;margin-bottom:28px}.kicker{color:var(--pink);font-size:.8rem;text-transform:uppercase;letter-spacing:.18em;font-weight:900}.section h2{font-size:clamp(2rem,5vw,3.5rem);letter-spacing:-.045em;margin:10px 0}.sub{color:var(--muted);line-height:1.65}.card{background:linear-gradient(145deg,#ffffff0d,#ffffff04);border:1px solid var(--line);border-radius:25px;padding:24px;box-shadow:0 18px 60px #0002}.envelope-card{max-width:700px;margin:auto;text-align:center}.envelope{width:150px;height:105px;margin:20px auto 24px;position:relative;display:grid;place-items:center;background:#ff9dc0;border-radius:12px;box-shadow:0 12px 35px #ff8db72b;transition:.3s transform}.envelope:before{content:"";position:absolute;inset:0;background:#ffc2d6;clip-path:polygon(0 0,50% 58%,100% 0);border-radius:12px}.envelope span{position:relative;font-size:2rem;z-index:1;transform:translateY(6px)}.envelope:hover{transform:rotate(-4deg) scale(1.05)}.letter{display:none;text-align:left;background:#fff5f8;color:#38202d;padding:24px;border-radius:18px;line-height:1.8;margin-top:20px;animation:pop .4s ease}.letter.show{display:block}@keyframes pop{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}.letter strong{color:#b82f69}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.memory{min-height:185px;position:relative;overflow:hidden;cursor:pointer;transition:.25s transform}.memory:hover{transform:translateY(-5px) rotate(-.5deg)}.memory .emoji{font-size:2rem}.memory h3{margin:16px 0 8px}.memory p{color:var(--muted);line-height:1.55;margin:0}.memory .hidden-note{display:none;color:var(--rose);margin-top:12px;line-height:1.6}.memory.open .hidden-note{display:block}.memory.open{border-color:#ff8db766;background:#ff8db710}.quiz{max-width:720px;margin:auto}.question{font-size:1.25rem;font-weight:900;margin:0 0 18px}.answers{display:grid;grid-template-columns:1fr 1fr;gap:10px}.answer{background:#ffffff09;border:1px solid var(--line);color:var(--cream);padding:14px;border-radius:14px;text-align:left}.answer:hover{border-color:var(--pink);background:#ff8db710}.answer.correct{background:#ff8db722;border-color:var(--pink)}.feedback{min-height:30px;color:var(--rose);margin:16px 0 0;line-height:1.5}.progress{height:5px;background:#ffffff12;border-radius:99px;margin-bottom:22px;overflow:hidden}.progress div{height:100%;width:0;background:var(--pink);transition:width .3s}.counter{text-align:center;color:var(--muted);font-size:.85rem;margin-top:12px}.love-meter{max-width:720px;margin:auto;text-align:center}.meter-number{font-size:clamp(3rem,9vw,6rem);font-weight:1000;color:var(--pink);letter-spacing:-.07em;margin:6px 0}.meter-heart{font-size:2.5rem;display:inline-block;transition:transform .15s}.meter-heart.pop{transform:scale(1.5) rotate(15deg)}.meter-track{height:12px;border-radius:99px;background:#ffffff12;overflow:hidden;margin:20px 0}.meter-track div{height:100%;width:0;background:linear-gradient(90deg,#ff719e,#ffd0e0);transition:width .25s}.big-final{text-align:center;padding:50px 22px;background:linear-gradient(145deg,#ff8db71b,#9c86ff0b);border:1px solid #ff8db733;border-radius:30px}.big-final .big-heart{font-size:3.5rem;animation:beat 1.3s infinite}@keyframes beat{0%,100%{transform:scale(1)}12%{transform:scale(1.15)}25%{transform:scale(1)}}.big-final h2{font-family:Georgia,serif;font-style:italic}.footer{text-align:center;color:#9e8d9d;padding:32px 0 45px;font-size:.85rem}.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#fff4f7;color:#3b1d2b;padding:12px 18px;border-radius:999px;font-weight:800;z-index:5;transition:.25s;box-shadow:0 8px 30px #0005;max-width:90%;text-align:center}.toast.show{opacity:1;transform:translate(-50%,0)}.confetti{position:fixed;top:-20px;z-index:8;pointer-events:none;animation:fall 2.6s linear forwards}@keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:.2}}.tiny{font-size:.83rem;color:var(--muted)}@media(max-width:700px){.grid{grid-template-columns:1fr}.memory{min-height:0}.hero{min-height:78vh}.f1{left:3%}.f2{right:3%}.answers{grid-template-columns:1fr}.section{padding:48px 0}.nav{padding:16px 0}.card{padding:19px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav"><div class="logo">A ♡ C</div><div class="pill">our little universe ✦</div></nav>
+  <header class="hero" id="home">
+    <div class="floating f1">💌</div><div class="floating f2">🧸</div><div class="floating f3">✨</div><div class="floating f4">💗</div>
+    <div>
+      <div class="eyebrow">✦ special day unlocked ✦</div>
+      <h1>365 hari <span>bareng kamu.</span></h1>
+      <p class="lead">Satu tahun, banyak cerita, sedikit drama, banyak kangen—dan satu orang yang masih jadi favoritku: <b>Cahaya</b> ♡</p>
+      <div class="actions"><button class="btn primary" onclick="document.querySelector('#letterSection').scrollIntoView({behavior:'smooth'})">Buka kejutan 💌</button><button class="btn secondary" onclick="sprinkle()">Pencet kalau sayang ✨</button></div>
+      <p class="tiny" style="margin-top:22px">Asmat & Cahaya · sejak 18 Oktober 2025</p>
+    </div>
+  </header>
+
+  <section class="section" id="letterSection">
+    <div class="section-head"><div class="kicker">01 / surat rahasia</div><h2>Untuk kamu, kesayanganku.</h2><p class="sub">Ada surat kecil yang malu-malu mau keluar. Buka amplopnya, ya.</p></div>
+    <div class="card envelope-card">
+      <button class="envelope" aria-label="Buka surat" onclick="toggleLetter()"><span>💌</span></button>
+      <div><button class="btn primary" onclick="toggleLetter()" id="letterBtn">Buka suratnya</button></div>
+      <div class="letter" id="letter">
+        <p>Hai, <strong>Cahaya-ku</strong> 🥹💗</p>
+        <p>Selamat satu tahun untuk kita. Terima kasih sudah hadir dan jadi bagian dari hari-hariku. Setahun ini mungkin nggak selalu sempurna—kadang ada salah paham, ngambek, atau hal-hal kecil yang bikin kita belajar. Tapi aku senang karena kita masih memilih untuk saling menggenggam.</p>
+        <p>Aku nggak janji bakal selalu jago bikin semuanya mudah. Tapi aku mau terus belajar memahami kamu, mendengarkan kamu, dan merayakan hal-hal kecil bareng kamu.</p>
+        <p>Semoga setelah 365 hari ini, kita punya lebih banyak cerita untuk ditertawakan, tempat untuk didatangi, makanan untuk dicoba, dan alasan untuk saling bilang, “aku beruntung punya kamu.”</p>
+        <p><strong>Happy anniversary, sayang. Aku pilih kamu—hari ini, besok, dan semoga di banyak hari setelahnya. ♡</strong></p>
+        <p style="text-align:right;margin-bottom:0">— Asmat, yang sayang kamu banyak-banyak 🐻</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div class="kicker">02 / mini museum</div><h2>Hal kecil, rasa besar.</h2><p class="sub">Klik kartu-kartu ini. Masing-masing punya pesan rahasia 💫</p></div>
+    <div class="grid">
+      <article class="card memory" onclick="this.classList.toggle('open')"><div class="emoji">🫶</div><h3>Favoritku: kita</h3><p>Yang biasa aja jadi istimewa kalau ada kamu.</p><div class="hidden-note">Nggak harus selalu pergi jauh atau melakukan hal besar. Kadang cukup ngobrol sama kamu aja, hariku terasa lebih baik. ♡</div></article>
+      <article class="card memory" onclick="this.classList.toggle('open')"><div class="emoji">🥹</div><h3>Maaf kalau...</h3><p>Aku masih belajar jadi pasangan yang lebih baik.</p><div class="hidden-note">Kalau aku pernah bikin kamu sedih, semoga aku bisa memperbaikinya lewat tindakan, bukan cuma kata-kata. Kita belajar sama-sama, ya.</div></article>
+      <article class="card memory" onclick="this.classList.toggle('open')"><div class="emoji">🌷</div><h3>Wishlist kita</h3><p>Masih banyak hal yang ingin kita coba.</p><div class="hidden-note">Lebih banyak date sederhana, foto random, ketawa sampai capek, dan momen yang nanti bisa kita kenang sambil bilang: “ternyata kita sudah sejauh ini.”</div></article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div class="kicker">03 / tes kecocokan receh</div><h2>Seberapa kenal kamu sama aku?</h2><p class="sub">Kuis mini ini cuma buat seru-seruan. Jangan ngambek kalau salah yaa 😚</p></div>
+    <div class="card quiz">
+      <div class="progress"><div id="quizProgress"></div></div>
+      <p class="question" id="question">Siapa yang paling beruntung di hubungan ini?</p>
+      <div class="answers" id="answers">
+        <button class="answer" onclick="answer(0)">Asmat 😎</button><button class="answer" onclick="answer(1)">Cahaya 🌷</button><button class="answer" onclick="answer(2)">Kita berdua 🫶</button><button class="answer" onclick="answer(3)">Tetangga sebelah</button>
+      </div>
+      <p class="feedback" id="feedback" aria-live="polite">Pilih jawabanmu, jangan curang 👀</p>
+      <div style="text-align:right"><button class="btn secondary" id="nextBtn" style="display:none" onclick="nextQuestion()">Lanjut ➜</button></div>
+      <div class="counter" id="counter">Pertanyaan 1 dari 3</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><div class="kicker">04 / love meter</div><h2>Isi baterai sayang 💗</h2><p class="sub">Spam tombolnya sampai penuh. Ini simulasi, tapi sayangnya beneran.</p></div>
+    <div class="card love-meter">
+      <div class="meter-heart" id="meterHeart">💖</div><div class="meter-number"><span id="meterNum">0</span><small style="font-size:.35em">%</small></div>
+      <div class="meter-track"><div id="meterBar"></div></div>
+      <button class="btn primary" onclick="chargeLove()">Tambah sayang +1 💘</button>
+      <p class="feedback" id="meterText">Baterai cinta masih pemanasan...</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="big-final"><div class="big-heart">💗</div><div class="kicker">one year down, more to go</div><h2>Kalau harus mengulang dari awal...</h2><p class="sub" style="max-width:600px;margin:0 auto 24px">Aku tetap mau ketemu kamu, kenal kamu, dan menjalani cerita ini lagi. Terima kasih sudah jadi rumah kecil di tengah ramainya dunia.</p><button class="btn primary" onclick="finalSurprise()">Klik untuk peluk virtual 🫂</button><p id="finalMessage" class="feedback"></p></div>
+  </section>
+  <footer class="footer">Dibuat dengan banyak sayang oleh Asmat untuk Cahaya ♡<br><span>18 Oktober 2025 — forever loading… ∞</span></footer>
+</div>
+<div class="toast" id="toast">Kamu dapat 1.000 peluk virtual! 🫂</div>
+<script>
+function toggleLetter(){const l=document.getElementById('letter');l.classList.toggle('show');document.getElementById('letterBtn').textContent=l.classList.contains('show')?'Tutup surat 💌':'Buka suratnya';if(l.classList.contains('show'))sprinkle(18)}
+function sprinkle(n=12){const bits=['💗','💕','✨','💖','🌸','💌'];for(let i=0;i<n;i++){const e=document.createElement('span');e.className='confetti';e.textContent=bits[Math.floor(Math.random()*bits.length)];e.style.left=Math.random()*100+'vw';e.style.fontSize=(14+Math.random()*20)+'px';e.style.animationDuration=(1.8+Math.random()*1.8)+'s';document.body.appendChild(e);setTimeout(()=>e.remove(),4000)}showToast('Dikirim '+(n>12?'banyak':'12')+' sayang ke kamu 💗')}
+function showToast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>e.classList.remove('show'),2200)}
+const qs=[
+{q:'Siapa yang paling beruntung di hubungan ini?',a:['Asmat 😎','Cahaya 🌷','Kita berdua 🫶','Tetangga sebelah'],correct:2,why:'Betul! Dua-duanya beruntung, tapi Asmat tetap merasa paling beruntung punya Cahaya. 🥹'},
+{q:'Kalau lagi kangen, solusi paling masuk akal apa?',a:['Pura-pura kuat','Ngambek dulu','Bilang kangen dan cari waktu ngobrol 💌','Kirim sinyal asap'],correct:2,why:'Yap! Komunikasi adalah kunci, walau kadang malu bilang kangen. 💗'},
+{q:'Hadiah anniversary paling penting?',a:['Barang mahal','Hubungan yang terus dijaga 🫶','Kue setinggi rumah','Libur dari semua tugas'],correct:1,why:'Jawaban paling manis! Hadiah bisa menyenangkan, tapi usaha dan perhatian setiap hari jauh lebih berarti. 🌷'}
+];let qi=0,answered=false;
+function renderQ(){const q=qs[qi];document.getElementById('question').textContent=q.q;document.getElementById('answers').innerHTML=q.a.map((a,i)=>`<button class="answer" onclick="answer(${i})">${a}</button>`).join('');document.getElementById('feedback').textContent='Pilih jawabanmu, jangan curang 👀';document.getElementById('nextBtn').style.display='none';document.getElementById('counter').textContent=`Pertanyaan ${qi+1} dari ${qs.length}`;document.getElementById('quizProgress').style.width=(qi/qs.length*100)+'%';answered=false}
+function answer(i){if(answered)return;answered=true;const q=qs[qi];document.querySelectorAll('#answers .answer')[q.correct].classList.add('correct');document.getElementById('feedback').textContent=q.why;document.getElementById('nextBtn').style.display='inline-block';document.getElementById('nextBtn').textContent=qi===qs.length-1?'Ulangi kuis ↻':'Lanjut ➜';document.getElementById('quizProgress').style.width=((qi+1)/qs.length*100)+'%'}
+function nextQuestion(){if(qi===qs.length-1){qi=0;renderQ();return}qi++;renderQ()}
+let love=0;function chargeLove(){love=Math.min(100,love+Math.floor(Math.random()*7+4));document.getElementById('meterNum').textContent=love;document.getElementById('meterBar').style.width=love+'%';const h=document.getElementById('meterHeart');h.classList.add('pop');setTimeout(()=>h.classList.remove('pop'),160);const t=love>=100?'FULL! Cinta kita over kapasitas. Tolong sediakan ruang untuk peluk. 🫂':love>=70?'Awas, sebentar lagi meledak karena gemas! 💥':love>=35?'Waduh, mulai panas nih mesinnya! 🔥':'Masih bisa ditambah, jangan pelit sayang! 😚';document.getElementById('meterText').textContent=t;if(love>=100)sprinkle(24)}
+function finalSurprise(){document.getElementById('finalMessage').textContent='*peluk erat selama 8 detik* 1… 2… 3… yaudah, bonus 365 hari lagi ya? 🫂💗';sprinkle(35);showToast('Cahaya dipeluk virtual oleh Asmat 🫂')}
+renderQ();
+</script>
+</body>
+</html>
